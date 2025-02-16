@@ -807,6 +807,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1440,6 +1443,9 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .border-gray-100 {
+    border-color: var(--color-gray-100);
+  }
   .border-gray-100\/50 {
     border-color: color-mix(in oklab, var(--color-gray-100) 50%, transparent);
   }
@@ -1485,6 +1491,9 @@
   }
   .bg-\[url\(\'\.\.\/bg-poly\.png\'\)\] {
     background-image: url('../bg-poly.png');
+  }
+  .bg-\[url\(\'\.\/bg-poly\.png\'\)\] {
+    background-image: url('./bg-poly.png');
   }
   .bg-none {
     background-image: none;
@@ -1665,6 +1674,9 @@
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
