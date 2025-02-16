@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+    padding: 0 16px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item .todo-text {
+    padding: 15px;
+    padding-right: 0;
+    flex-grow: 1;
+}
+
+.delete-todo {
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.delete-todo img {
+    width: 30px;
+    height: 30px;
+}
+
+.delete-todo img:hover {
+    filter: invert(30%) sepia(35%) saturate(7000%) contrast(90%);
+}

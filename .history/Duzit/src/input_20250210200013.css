@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+        --font-display: 'Balsamiq Sans', sans-serif;
+        --font-display: 'Gochi Hand', cursive;
+    }
+}

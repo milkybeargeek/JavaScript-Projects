@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Duzit</title>
+</head>
+
+<body class="bg-gradient-to-br from-blue-400 to-blue-600 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white uppercase mb-6">Duzit</h1>
+
+    <div class="w-full max-w-lg bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg">
+        <!-- Task Input Form -->
+        <form class="flex gap-3 mb-4">
+            <input id="todo-input" type="text" placeholder="Add a new task" autocomplete="off"
+                class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button id="add-todo"
+                class="bg-gradient-to-r from-blue-700 to-blue-500 text-white font-bold px-4 py-2 rounded-lg hover:opacity-90">
+                Add
+            </button>
+        </form>
+
+        <!-- Task List -->
+        <ul id="todo-list" class="space-y-3">
+            <li class="flex items-center bg-white/20 rounded-lg p-3 shadow-md">
+                <input type="checkbox" id="todo-1" class="hidden">
+                <label for="todo-1"
+                    class="w-6 h-6 flex items-center justify-center rounded-full border-2 border-gray-200 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" width="18px" viewBox="0 -960 960 960"
+                        fill="white">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <span class="ml-3 text-white text-lg flex-grow">JS projects</span>
+                <button class="text-red-400 hover:text-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>
+
+            <li class="flex items-center bg-white/20 rounded-lg p-3 shadow-md">
+                <input type="checkbox" id="todo-2" class="hidden">
+                <label for="todo-2"
+                    class="w-6 h-6 flex items-center justify-center rounded-full border-2 border-gray-200 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" width="18px" viewBox="0 -960 960 960"
+                        fill="white">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <span class="ml-3 text-white text-lg flex-grow">Do the dishes</span>
+                <button class="text-red-400 hover:text-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>
+
+            <li class="flex items-center bg-white/20 rounded-lg p-3 shadow-md">
+                <input type="checkbox" id="todo-3" class="hidden">
+                <label for="todo-3"
+                    class="w-6 h-6 flex items-center justify-center rounded-full border-2 border-gray-200 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" width="18px" viewBox="0 -960 960 960"
+                        fill="white">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <span class="ml-3 text-white text-lg flex-grow">Play Stardew Valley</span>
+                <button class="text-red-400 hover:text-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

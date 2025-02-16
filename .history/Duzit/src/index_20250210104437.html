@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <title>Duzit</title>
+</head>
+
+<body
+    class=" bg-[url('../bg-poly.png')] bg-cover bg-center bg-fix bg-no-repeat flex flex-col m-0 p-0 items-center justify-center h-screen">
+    <h1 class="font-Merriweather font-bold text-3xl p-8">Duzit</h1>
+    <div
+        class="wrapper h-fit w-fit p-6 rounded-md  backdrop-filter backdrop-blur-md bg-opacity-0 border-2 border-sky-500/100 items-center justify-center flex flex-col">
+        <form>
+            <input id="todo-input" type="text" placeholder="Add a new task" autocomplete="off">
+            <button id="add-todo">Add</button>
+        </form>
+        <ul id="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" id="todo-1">
+                <label class="custom-checkbox" for="todo-1">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-1" class="todo-text">JS projects
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" id="todo-2">
+                <label class="custom-checkbox" for="todo-2">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-2" class="todo-text">Do the dishes
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" id="todo-3">
+                <label class=" custom-checkbox" for="todo-3">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-3" class="todo-text">Play stardew valley
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

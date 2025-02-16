@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Duzit</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body
+    class=" bg-[url('../bg-poly.png')] bg-cover bg-center bg-fix bg-no-repeat flex flex-col p-4 items-center justify-center h-screen">
+    <h1 class=" text-5xl mb-5 font-extrabold uppercase text-center">Duzit</h1>
+    <div
+        class="wrapper w-3xl max-w-full rounded-xl backdrop-filter backdrop-blur-md bg-opacity-0 border-3 border-gray-100/50  flex flex-col p-10">
+        <form class="flex flex-row gap-x-5 w-full h-fit justify-center items-center">
+            <input id="todo-input" type="text" placeholder="Add a new task" autocomplete="off"
+                class="todo-input border-2 border-gray-100/50  rounded-xl p-2 w-full h-fit box-border font-black text-sm focus:ring-2 focus:outline-none focus:ring-blue-400 dark:focus:ring-blue-200">
+            <button id="add-todo"
+                class="text-black bg-gradient-to-tl from-blue-800 to-blue-400 hover:bg-gradient-to-br focus:ring-3 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-200 font-bold rounded-xl text-sm px-5 py-2.5 text-center me-2 h-fit justify-center items-center">Add</button>
+        </form>
+        <ul id="todo-list" class="flex flex-col p-0 mt-2">
+            <!--<li class="todo-item">
+                <input class="hidden" type="checkbox" id="todo-1">
+                <label class="custom-checkbox" for="todo-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e8eaed">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <label for="todo-1" class="todo-text">JS projects
+                </label>
+                <button class="delete-todo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>
+            <li class="todo-item">
+                <input class="hidden" type="checkbox" id="todo-2">
+                <label class="custom-checkbox" for="todo-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e8eaed">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <label for="todo-2" class="todo-text ">Do the dishes
+                </label>
+                <button class="delete-todo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>
+            <li class="todo-item">
+                <input class="hidden" type="checkbox" id="todo-3">
+                <label class=" custom-checkbox" for="todo-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e8eaed">
+                        <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+                    </svg>
+                </label>
+                <label for="todo-3" class="todo-text">Play stardew valley
+                </label>
+                <button class="delete-todo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M5.755 20.283 4 8h16l-1.755 12.283A2 2 0 0 1 16.265 22h-8.53a2 2 0 0 1-1.98-1.717zM21 4h-5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2z" />
+                    </svg>
+                </button>
+            </li>-->
+        </ul>
+    </div>
+</body>
+
+</html>

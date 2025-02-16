@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gochi+Hand&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    html {
+        font-family: "Balsamiq Sans", cursive !important;
+    }
+
+    .font-balsamiq {
+        font-family: "Balsamiq Sans", cursive !important;
+    }
+
+    .font-gochiHand {
+        font-family: "Gochi Hand", cursive !important;
+    }
+}

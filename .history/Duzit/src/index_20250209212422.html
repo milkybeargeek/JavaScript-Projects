@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Duzit</title>
+</head>
+
+<body>
+    <h1>Duzit</h1>
+    <div class="wrapper bg-[url(../bg.jpg)] w-full h-full">
+        <form>
+            <input id="todo-input" type="text" placeholder="Add a new task" autocomplete="off">
+            <button id="add-todo">Add</button>
+        </form>
+        <ul id="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" id="todo-1">
+                <label class="custom-checkbox" for="todo-1">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-1" class="todo-text">JS projects
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" id="todo-2">
+                <label class="custom-checkbox" for="todo-2">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-2" class="todo-text">Do the dishes
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" id="todo-3">
+                <label class=" custom-checkbox" for="todo-3">
+                    <img src="../icons8-done.svg" alt="done-svg">
+                </label>
+                <label for="todo-3" class="todo-text">Play stardew valley
+                </label>
+                <button class="delete-todo">
+                    <img src="../icons8-delete.svg" alt="delete-svg">
+                </button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

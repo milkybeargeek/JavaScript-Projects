@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+    padding: 0 16px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item .todo-text {
+    padding: 15px;
+    padding-right: 0;
+    flex-grow: 1;
+}
+
+.delete-todo {
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.delete-todo svg {
+    width: 28px;
+    height: 28px;
+}
+
+.delete-todo svg:hover {
+    fill: red;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox svg {
+    width: 30px;
+    height: 30px;
+
+}
+
+input[type="checkbox"]:checked+.custom-checkbox svg path {
+    fill: rgb(0, 255, 0)
+}
+
+input[type="checkbox"]:checked+.todo-text {
+    text-decoration: line-through;
+}
